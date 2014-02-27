@@ -12,7 +12,7 @@ class Codephun_Wishlist_IndexController extends Mage_Wishlist_IndexController
 {
     public function indexAction()
     {
-        echo 'If I want my code to run before parent sendAction';
+        echo 'If I want my code to run before parent indexAction';
         // If you don't want to use parent code, just don't add parent::methodName.
         parent::indexAction();
     }
