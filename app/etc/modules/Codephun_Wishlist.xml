@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Codephun_Wishlist>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Codephun_Wishlist>
+    </modules>
+</config>

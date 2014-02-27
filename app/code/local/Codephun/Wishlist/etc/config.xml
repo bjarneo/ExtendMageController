@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Codephun_Wishlist>
+            <version>0.1.0</version>
+        </Codephun_Wishlist>
+    </modules>
+
+    <frontend>
+        <routers>
+            <wishlist>
+                <args>
+                    <modules>
+                        <Codephun_Wishlist before="Mage_Wishlist">Codephun_Wishlist</Codephun_Wishlist>
+                    </modules>
+                </args>
+            </wishlist>
+        </routers>
+    </frontend>
+</config>
